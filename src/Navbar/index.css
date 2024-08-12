@@ -1,0 +1,99 @@
+.header {
+    height: 15%;
+    width: 100%;
+    border-bottom: 0.5px solid #848282;
+}
+
+.header-part1 {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-container {
+    margin-right: 5%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-family: "Poppins";
+    margin-left: 5%;
+}
+
+.logo {
+    height: 40%;
+    margin-left: 5%;
+}
+
+.header-part2 {
+    list-style-type: none;
+    height: 40%;
+    display: flex;
+    width: 35%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto Condensed";
+    padding: 0px;
+    font-weight: 500;
+}
+
+.header-part2 li {
+    cursor: pointer;
+}
+
+.icon1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.icon2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .icons-container {
+        width: 20%;
+    }
+    .person {
+        display: none;
+    }
+    .brand {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .logo {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 5%;
+        font-size: 25px;
+    }
+
+    .header {
+        height: 8%;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-part1 {
+        justify-content: space-between;
+    }
+
+    .header-part2 {
+        display: none;
+    }
+}
